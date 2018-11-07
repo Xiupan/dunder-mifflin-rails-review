@@ -2,6 +2,10 @@
 We’ve started some of the work for you but we still need your help to get our site working! Here are the deliverables:
 
 Build out the associations for the models we’ve created. You may need to change the schema in order to get the rake db:seed command to work.
+- Moved loop in seed.rb file to top of seed.rb file
+- Added belongs_to to Employee model
+- Added has_many to Dog model
+- Changed migration file on Employee model to belongs_to :dog 
 
 On the index page for both Dogs and Employees, a user should be able to click a name and the site should take them to the corresponding show page.
 
