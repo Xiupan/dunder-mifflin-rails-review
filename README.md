@@ -24,3 +24,6 @@ As a user I should be able to create and edit an Employee and be able to select 
 - a text field to enter in the dog's id is sufficient though
 
 No one at Dunder Mifflin can have the same alias and/or job title (Dwight made up that rule!)
+- Added Validation to Employee model
+- Changed Employee new controller method to allow for validation checks
+- Added conditional error messages to the New Employee form
