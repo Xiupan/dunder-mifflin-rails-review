@@ -12,9 +12,15 @@ On the index page for both Dogs and Employees, a user should be able to click a 
 - Created corresponding Views (index and show for each Model)
 
 The Employee show page should list all of their attributes (bonus if you could get a picture to show up)
+- Done
 
 The Dog show page should have their name, breed, age, and the Dunder Mifflin Employees associated with that dog.
+- Done
 
 As a user I should be able to create and edit an Employee and be able to select 1 dog from a list of existing dogs.
+- Created new.html.erb for Employee model.
+- Used form_for (or any other Rails Form Helper)
+- collection_select for listing Dog.all in the form
+- a text field to enter in the dog's id is sufficient though
 
 No one at Dunder Mifflin can have the same alias and/or job title (Dwight made up that rule!)
