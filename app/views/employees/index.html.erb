@@ -1,0 +1,4 @@
+<h1>All Da Employees</h1>
+<% @employees.each do |e| %>
+  <p><%= link_to e.first_name + " " + e.last_name, e.to_model %></p>
+<% end %>

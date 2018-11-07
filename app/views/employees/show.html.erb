@@ -1,0 +1,8 @@
+<h1><%= @employee.first_name + " " + @employee.last_name %></h1>
+<p>aka: <%= @employee.alias %></p>
+<p>Title: <%= @employee.title %></p>
+<p>Works at: <%= @employee.office %></p>
+<%= image_tag(@employee.img_url, width: "500") %>
+<p>Dog: <%= @employee.dog.name %></p>
+
+<%= link_to "Back to all employees", "/employees" %>
